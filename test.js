@@ -16,15 +16,15 @@ describe('sails-google-discovery-doc', function () {
 
     var interval = setInterval(function () {
       if (global.sails) {
+        sails.config.log.level = 'error';
         clearInterval(interval);
         global.sails.once('lifted', function () {
-          sails.config.log.level = 'error';
           console.log = log;
           console.error = error;
           done();
         });
       }
-    }, 1);
+    }, 0);
 
   });
 
