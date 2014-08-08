@@ -4,7 +4,7 @@
   "description": "Generate a Google API Discovery Document for a Sails.js Application",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,8 @@
   "dependencies": {
     "google-discovery-document": "^0.1.0",
     "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "xtuple-api": "0.0.0"
   }
 }
