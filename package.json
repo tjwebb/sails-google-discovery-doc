@@ -33,5 +33,9 @@
   },
   "devDependencies": {
     "xtuple-api": "0.0.0"
+  },
+  "engines": {
+    "node": "^0.10.30",
+    "npm": "^1.4.21
   }
 }
