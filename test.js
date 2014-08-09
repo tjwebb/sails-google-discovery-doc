@@ -43,8 +43,4 @@ describe('sails-google-discovery-doc', function () {
 
   });
 
-  describe('#createDirectoryList', function () {
-
-  });
-
 });
