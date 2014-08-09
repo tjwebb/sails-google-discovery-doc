@@ -38,7 +38,7 @@ describe('sails-google-discovery-doc', function () {
     });
 
     it('should pass google-discovery-document validation', function () {
-      assert(DiscoveryDocument.validate(doc));
+      assert(DiscoveryDocument.validate(doc.data));
     });
 
   });
