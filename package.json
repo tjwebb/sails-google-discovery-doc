@@ -32,7 +32,7 @@
     "lodash": "^2.4.1"
   },
   "devDependencies": {
-    "xtuple-api": "0.0.0"
+    "xtuple-api": "*"
   },
   "engines": {
     "node": "^0.10.30",
