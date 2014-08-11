@@ -32,6 +32,7 @@
     "lodash": "^2.4.1"
   },
   "devDependencies": {
+    "mocha": "^1.21.4",
     "xtuple-api": "*"
   },
   "engines": {
