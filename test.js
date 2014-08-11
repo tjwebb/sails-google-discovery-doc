@@ -35,6 +35,7 @@ describe('sails-google-discovery-doc', function () {
 
     before(function () {
       doc = SailsDiscovery.createRestDescription(sails, pkg);
+      //console.log(_.pluck(doc.data.schemas, 'properties'));
     });
 
     it('should pass google-discovery-document validation', function () {
