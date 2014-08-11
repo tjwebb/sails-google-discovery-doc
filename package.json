@@ -1,6 +1,6 @@
 {
   "name": "sails-google-discovery-doc",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "description": "Generate a Google API Discovery Document for a Sails.js Application",
   "main": "index.js",
   "scripts": {
