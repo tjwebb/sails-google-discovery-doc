@@ -1,4 +1,15 @@
 language: node_js
 node_js:
-  - "0.10"
-  - "0.11"
+  - '0.10'
+  - '0.11'
+
+notifications:
+  email: false
+
+deploy:
+  provider: npm
+  email: me@traviswebb.com
+  api_key:
+    secure: CZKdpBKco8pR+ydd/0LUJ8Mf3smjyWBW5u5nVQS4qWNL1unYPGzkjH3fDISSU5ZNEaaWVtZhrzaYr6StlkITFDaohomqN3e6sjsTLEWwYi6rUMkbcpSXtfe9cE7V93WK/kKCFbyCMsbRH0MuCwi2ah49fPAymj8hVRudEz8flD8=
+  on:
+    repo: tjwebb/sails-google-discovery-doc
