@@ -29,7 +29,8 @@
   "homepage": "https://github.com/tjwebb/sails-google-discovery-doc",
   "dependencies": {
     "google-discovery-document": "^0.1.0",
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "sails-rigged": "^0.10.3"
   },
   "devDependencies": {
     "mocha": "^1.21.4",
