@@ -32,11 +32,11 @@
     "lodash": "^2.4.1",
     "sails-rigged": "^0.10.3"
   },
-  "devDependencies": {
-    "mocha": "^1.21.4",
+  "optionalDependencies": {
     "xtuple-api": "*"
   },
   "engines": {
+    "mocha": "^1.21.4",
     "node": "^0.10.30",
     "npm": "^1.4.21"
   }
