@@ -39,6 +39,7 @@
     "npm": "^1.4.21"
   },
   "devDependencies": {
-    "mocha": "^1.21.4"
+    "mocha": "^1.21.4",
+    "sails": "^0.10.5"
   }
 }
