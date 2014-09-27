@@ -17,7 +17,7 @@ describe('sails-google-discovery-doc', function () {
   };
 
   before(function (done) {
-    this.timeout(10000);
+    this.timeout(60 * 1000);
 
     app.load(config, function (error, sails) {
       app = sails;
