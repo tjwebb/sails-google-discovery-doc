@@ -29,14 +29,12 @@
   "homepage": "https://github.com/tjwebb/sails-google-discovery-doc",
   "dependencies": {
     "google-discovery-document": "^0.1.0",
-    "lodash": "^2.4.1",
-    "sails-rigged": "^0.10.3"
+    "lodash": "^2.4.1"
   },
   "optionalDependencies": {
     "xtuple-api": "*"
   },
   "engines": {
-    "mocha": "^1.21.4",
     "node": "^0.10.30",
     "npm": "^1.4.21"
   }

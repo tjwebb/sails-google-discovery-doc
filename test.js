@@ -1,18 +1,26 @@
+'use strict';
+
 var path = require('path');
 var assert = require('assert');
 var pkg = require('xtuple-api/package');
+var SailsApp = require('sails').Sails;
 var DiscoveryDocument = require('google-discovery-document');
-var rigger = require('sails-rigged');
 
 describe('sails-google-discovery-doc', function () {
   var SailsDiscovery = require('./');
-  var sails;
+  var app = new SailsApp();
+  var config = {
+    appPath: path.dirname(require.resolve('xtuple-api')),
+    hooks: {
+      grunt: false
+    }
+  };
 
   before(function (done) {
     this.timeout(10000);
 
-    rigger.lift('xtuple-api', function (_sails) {
-      sails = _sails;
+    app.load(config, function (error, sails) {
+      app = sails;
       done();
     });
   });
@@ -21,7 +29,7 @@ describe('sails-google-discovery-doc', function () {
     var doc;
 
     before(function () {
-      doc = SailsDiscovery.createRestDescription(sails, pkg);
+      doc = SailsDiscovery.createRestDescription(app, pkg);
     });
 
     it('should pass google-discovery-document validation', function () {
