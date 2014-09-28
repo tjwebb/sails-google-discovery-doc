@@ -13,3 +13,5 @@ deploy:
     secure: CZKdpBKco8pR+ydd/0LUJ8Mf3smjyWBW5u5nVQS4qWNL1unYPGzkjH3fDISSU5ZNEaaWVtZhrzaYr6StlkITFDaohomqN3e6sjsTLEWwYi6rUMkbcpSXtfe9cE7V93WK/kKCFbyCMsbRH0MuCwi2ah49fPAymj8hVRudEz8flD8=
   on:
     repo: tjwebb/sails-google-discovery-doc
+    all_branches: true
+    tags: true
